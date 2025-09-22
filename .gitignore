@@ -1,0 +1,112 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Virtual environments
+sih_venv/
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+pyrightconfig.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environments / secrets
+.env
+.env.*
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Local logs
+logs/
+*.log
+
+# PEP 582
+__pypackages__/
+
+# ML/Dataset files
+ml/dataset/images/
+ml/dataset/labels/
+ml/dataset/*.json
+ml/dataset/*.txt
+ml/exports/
+ml/runs/
+ml/weights/
+ml/models/
+
+# Generated subset files
+community_fish_detection_subset.json
+subset_filelist.txt
+
+# Large dataset files
+*.json
+*.csv
+*.parquet
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+
+# Training outputs
+runs/
+tensorboard_logs/
+wandb/
+mlruns/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
